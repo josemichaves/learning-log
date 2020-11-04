@@ -16,6 +16,7 @@
 
 * [Main Git](git/untitled/README.md)
   * [Basic Commands](git/untitled/basic-commands.md)
+  * [Advanced Commands](git/untitled/advanced-commands.md)
 
 ## Others
 
