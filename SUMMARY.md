@@ -4,12 +4,13 @@
 
 ## HTML
 
-* [Tags](html/untitled.md)
-* [Useful Links](html/useful-links.md)
+* [Main](html/main/README.md)
+  * [Tags](html/main/untitled.md)
+  * [Useful Links](html/main/useful-links.md)
 
 ## CSS
 
-* [Untitled](css/untitled.md)
+* [Main](css/untitled.md)
 
 ## Git
 
