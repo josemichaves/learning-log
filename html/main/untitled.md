@@ -6,7 +6,7 @@ El visual viewport es lo que se ve en este momento en la pantalla, normalmente e
 
 El `viewport meta tag` lo diseño Apple para que cuando una pagina se vea en una pantalla mas estrecha, se siga viendo bien, le de zoom y todo cuadre.
 
-```text
+```markup
 <meta name="viewport" content=" width=device-width, height=device-height, initial-scale=1" />
 ```
 
