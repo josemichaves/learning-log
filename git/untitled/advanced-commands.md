@@ -46,7 +46,7 @@ Create a new connection to a remote repo. The `<name>` can be used as a shorcut 
 git fetch <remote> <branch>
 ```
 
-Download the copy in the repo, but doesn't merge with the local copy, instead of this shows in the working directory, but not changes are made.
+Update what we see of the remote repo, like the new files, new branches, etc. 
 
 
 
@@ -62,7 +62,7 @@ Download the copy in the repo and merge it with the local copy. It's replaces al
 git push <remote> <branch>
 ```
 
-Send the `<branch>`to the remote along with all the commits and objetcs. It's like sending all the work to the repo.
+Send the `<branch>`to the remote along with all the commits and objects. It's like sending all the work to the repo.
 
 
 
