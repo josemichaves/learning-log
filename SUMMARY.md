@@ -13,6 +13,7 @@
 * [Main CSS](css/untitled/README.md)
   * [FlexBox](css/untitled/flexbox.md)
   * [CSS Grid](css/untitled/css-grid.md)
+  * [Advanced CSS Grid](css/untitled/advanced-css-grid.md)
 
 ## Git
 
