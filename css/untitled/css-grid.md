@@ -12,21 +12,33 @@ Set the container as the container grid.
 grid-template-columns: <10px 200px 2fr>
 ```
 
-Set the columns of the grid, and the size, can also be used the `repeat(<times>, <size> dd`
+Set the columns of the grid, and the size, can also be used the `repeat(<times>, <size>)` to make a pattern.
 
 
 
 ```css
-grid-template-rows:
+grid-template-rows: <520px 50%>
 ```
 
-```css
-grid-template:
-```
+Set the roed of the grid, and the size, can also be used the `repeat(<times>, <size>)` to make a pattern.
+
+
 
 ```css
-grid-gap:
+grid-template: <rows> / <columns>
 ```
+
+Shorthand for defining `grid-template-rows` and `grid-template-columns` at the same time.
+
+
+
+```css
+grid-gap: <20px>
+```
+
+Blank space between rows \(can be achieved only the gaps for the rows with `row-gap:` \) and columns \(can also be achieved only columns with `column-gap:` \). 
+
+
 
 ```css
 grid-row-start:
