@@ -11,4 +11,5 @@
 * `grid-auto-rows` specifies the height of rows added implicitly to the grid
 * `grid-auto-columns` specifies the width of columns added implicitly to the grid
 * `grid-auto-flow` specifies in which direction implicit elements should be created
+* Dense in `grid-auto-flow`
 
