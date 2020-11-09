@@ -81,3 +81,11 @@ grid-auto-flow: dense;
 
  The `grid-auto-flow` CSS property controls how the auto-placement algorithm works, specifying exactly how auto-placed items get flowed into the grid.
 
+
+
+### Implicit Grid vs Explcit Grid
+
+ When we use `grid-template-columns` and `grid-template-rows` we create an Explicit Grid.  
+
+However if we try and place an item outside of that grid the browser will create an Implicit Grid line or lines in order to hold that item.
+
