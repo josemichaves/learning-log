@@ -25,4 +25,5 @@
 
 * [Main](others/main/README.md)
   * [Markdown](others/main/markdown.md)
+  * [Bash](others/main/bash.md)
 
