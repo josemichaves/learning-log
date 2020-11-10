@@ -15,6 +15,12 @@
   * [CSS Grid](css/untitled/css-grid.md)
   * [Advanced CSS Grid](css/untitled/advanced-css-grid.md)
 
+## JavaScript
+
+* [Main JavaScript](javascript/main-javascript/README.md)
+  * [Javascript Basis](javascript/main-javascript/javascript-basis.md)
+  * [JavaScript variables](javascript/main-javascript/javascript-variables.md)
+
 ## Git
 
 * [Main Git](git/untitled/README.md)
