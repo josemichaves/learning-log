@@ -2,14 +2,36 @@
 
 
 
-* Data is printed, or logged, to the console, a panel that displays messages, with `console.log()`.
-* We can write single-line comments with `//` and multi-line comments between `/*` and `*/`.
-* There are 7 fundamental data types in JavaScript: strings, numbers, booleans, null, undefined, symbol, and object.
-* Numbers are any number without quotes: `23.8879`
-* Strings are characters wrapped in single or double quotes: `'Sample String'`
-* The built-in arithmetic operators include `+`, `-`, `*`, `/`, and `%`.
-* Objects, including instances of data types, can have properties, stored information. The properties are denoted with a `.` after the name of the object, for example: `'Hello'.length`.
-* Objects, including instances of data types, can have methods which perform actions. Methods are called by appending the object or instance with a period, the method name, and parentheses. For example: `'hello'.toUpperCase()`.
-* We can access properties and methods by using the `.`, dot operator.
-* Built-in objects, including `Math`, are collections of methods and properties that JavaScript provides
+```javascript
+console.log('to print');
+```
+
+Print the data in the terminal
+
+
+
+The're are 6 fundamental types of data in JavaScript:
+
+* **Strings**
+  * Characters wrapped in single `''` or doble quotes `""`.
+* **Numbers**
+  * Is used to represent positive or negative numbers with or without decimal place `23.584` `1.5e-8`
+* **Booleans**
+  * The Boolean data type can hold only two values: `true` or `false`.
+* **Undefined**
+  * The undefined data type can only have one value-the special value `undefined`. If a variable has been declared, but has not been assigned a value, has the value `undefined`.
+* **Null**
+  * This is another special data type that can have only one value-the `null` value. A `null` value means that there is no value. It is not equivalent to an empty string \(`""`\) or 0, it is simply nothing. `var a = null;`
+* **Object**
+  * The `object` is a complex data type that allows you to store collections of data.
+
+    An object contains properties, defined as a key-value pair. A property key \(name\) is always a string, but the value can be any data type, like strings, numbers, booleans, or complex data types like arrays, function and other objects. `var varName = { 'key1':'value1' , 'key2':'value2'};`
+
+There is already a built-in objects, which can make us do thing for example `.lenght` to know the characters in a string. Built-in objects are a collections of methods and properties that JavaScript  provides.
+
+We also have built-in arithmetics operators `+, -, *, /, %`
+
+
+
+
 
