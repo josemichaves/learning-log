@@ -1,4 +1,4 @@
-# Javascript Conditionals
+# JavaScript Conditionals
 
 
 

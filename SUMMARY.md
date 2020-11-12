@@ -18,9 +18,10 @@
 ## JavaScript
 
 * [Main JavaScript](javascript/main-javascript/README.md)
-  * [Javascript Basis](javascript/main-javascript/javascript-basis.md)
+  * [JavaScript Basis](javascript/main-javascript/javascript-basis.md)
   * [JavaScript Variables](javascript/main-javascript/javascript-variables.md)
-  * [Javascript Conditionals](javascript/main-javascript/javascript-conditionals.md)
+  * [JavaScript Conditionals](javascript/main-javascript/javascript-conditionals.md)
+  * [JavaScript Functions](javascript/main-javascript/javascript-functions.md)
 
 ## Git
 

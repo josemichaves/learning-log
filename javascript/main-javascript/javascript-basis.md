@@ -1,4 +1,4 @@
-# Javascript Basis
+# JavaScript Basis
 
 
 
