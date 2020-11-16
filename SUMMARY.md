@@ -23,6 +23,7 @@
   * [JavaScript Conditionals](javascript/main-javascript/javascript-conditionals.md)
   * [JavaScript Functions](javascript/main-javascript/javascript-functions.md)
   * [JavaScript Scope](javascript/main-javascript/javascript-scope.md)
+  * [JavaScript Arrays](javascript/main-javascript/javascript-arrays.md)
 
 ## Git
 

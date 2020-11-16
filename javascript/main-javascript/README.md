@@ -10,5 +10,7 @@
 
 {% page-ref page="javascript-scope.md" %}
 
+{% page-ref page="javascript-arrays.md" %}
+
 
 
