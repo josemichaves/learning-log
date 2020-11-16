@@ -8,5 +8,7 @@
 
 {% page-ref page="javascript-functions.md" %}
 
+{% page-ref page="javascript-scope.md" %}
+
 
 

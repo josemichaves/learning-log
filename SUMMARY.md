@@ -22,6 +22,7 @@
   * [JavaScript Variables](javascript/main-javascript/javascript-variables.md)
   * [JavaScript Conditionals](javascript/main-javascript/javascript-conditionals.md)
   * [JavaScript Functions](javascript/main-javascript/javascript-functions.md)
+  * [JavaScript Scope](javascript/main-javascript/javascript-scope.md)
 
 ## Git
 
