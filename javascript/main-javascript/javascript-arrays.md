@@ -14,10 +14,6 @@ let myArray = [arrayItem1, arrayItem2, arrayItem3, ...];
 
 Each item inside of an array is at a numbered position, or index, starting at `0`.
 
-
-
-
-
 We can access one item in an array using its index, with syntax like: `myArray[0]`.
 
 ```javascript
@@ -69,6 +65,8 @@ console.log(myArray);
 
 Some built-in methods are mutating, meaning the method will change the array, while others are not mutating. You can always check the documentation.
 
+Arrays mutated inside of a function will keep that change even outside the function
+
 Variables that contain arrays can be declared with `let` or `const`. Even when declared with `const`, arrays are still mutable. However, a variable declared with `const` cannot be reassigned.
 
 ```javascript
@@ -87,10 +85,6 @@ myArray = [newArrayItems};
 console.log(myArray);
 >>>[myArray]
 ```
-
-Arrays mutated inside of a function will keep that change even outside the function
-
-
 
 
 

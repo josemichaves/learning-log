@@ -24,6 +24,7 @@
   * [JavaScript Functions](javascript/main-javascript/javascript-functions.md)
   * [JavaScript Scope](javascript/main-javascript/javascript-scope.md)
   * [JavaScript Arrays](javascript/main-javascript/javascript-arrays.md)
+  * [JavaScript Loops](javascript/main-javascript/javascript-loops.md)
 
 ## Git
 
