@@ -4,6 +4,8 @@
 
 {% page-ref page="bash.md" %}
 
+{% page-ref page="flowcharts.md" %}
+
 
 
 

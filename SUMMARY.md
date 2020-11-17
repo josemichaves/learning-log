@@ -40,4 +40,5 @@
     * [Basic Syntax](others/main/markdown/basic-syntax.md)
     * [Advanced Syntax](others/main/markdown/advanced-syntax.md)
   * [Bash](others/main/bash.md)
+  * [FlowCharts](others/main/flowcharts.md)
 
