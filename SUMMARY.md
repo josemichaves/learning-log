@@ -25,6 +25,7 @@
   * [JavaScript Scope](javascript/main-javascript/javascript-scope.md)
   * [JavaScript Arrays](javascript/main-javascript/javascript-arrays.md)
   * [JavaScript Loops](javascript/main-javascript/javascript-loops.md)
+  * [JavaScript Higher-Order Functions](javascript/main-javascript/javascript-higher-order-functions.md)
 
 ## Git
 
@@ -35,6 +36,8 @@
 ## Others
 
 * [Main](others/main/README.md)
-  * [Markdown](others/main/markdown.md)
+  * [Markdown](others/main/markdown/README.md)
+    * [Basic Syntax](others/main/markdown/basic-syntax.md)
+    * [Advanced Syntax](others/main/markdown/advanced-syntax.md)
   * [Bash](others/main/bash.md)
 
