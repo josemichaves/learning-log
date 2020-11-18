@@ -27,6 +27,7 @@
   * [JavaScript Loops](javascript/main-javascript/javascript-loops.md)
   * [JavaScript Higher-Order Functions](javascript/main-javascript/javascript-higher-order-functions.md)
   * [JavaScript Iterator](javascript/main-javascript/javascript-iterator.md)
+  * [JavaScript Basic Objects](javascript/main-javascript/javascript-basic-objects.md)
 
 ## Git
 
