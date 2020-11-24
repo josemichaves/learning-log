@@ -30,6 +30,7 @@
   * [JavaScript Basic Objects](javascript/main-javascript/javascript-basic-objects.md)
   * [JavaScript Advanced Objects](javascript/main-javascript/javascript-advanced-objects.md)
   * [JavaScript Classes](javascript/main-javascript/javascript-classes.md)
+  * [JavaScript Browser Compatibility and Transpilation](javascript/main-javascript/javascript-browser-compatibility-and-transpilation.md)
 
 ## Git
 
