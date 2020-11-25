@@ -22,5 +22,17 @@
 
 {% page-ref page="javascript-advanced-objects.md" %}
 
+{% page-ref page="javascript-classes.md" %}
+
+{% page-ref page="javascript-browser-compatibility-and-transpilation.md" %}
+
+{% page-ref page="javascript-modules.md" %}
+
+{% page-ref page="javascript-asynchronous.md" %}
+
+{% page-ref page="javascript-async-await.md" %}
+
+
+
 
 

@@ -32,7 +32,8 @@
   * [JavaScript Classes](javascript/main-javascript/javascript-classes.md)
   * [JavaScript Browser Compatibility and Transpilation](javascript/main-javascript/javascript-browser-compatibility-and-transpilation.md)
   * [JavaScript Modules](javascript/main-javascript/javascript-modules.md)
-  * [Javascript Asynchronous](javascript/main-javascript/javascript-asynchronous.md)
+  * [JavaScript Asynchronous](javascript/main-javascript/javascript-asynchronous.md)
+  * [JavaScript Async Await](javascript/main-javascript/javascript-async-await.md)
 
 ## Git
 
