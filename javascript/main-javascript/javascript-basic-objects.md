@@ -79,11 +79,60 @@ object = {
     }
 }
 
+console.log(object.key())
+>>> Hello!!
 ```
 
-* We can add methods to our object literals using key-value syntax with anonymous function expressions as values or by using the new ES6 method syntax.
-* We can navigate complex, nested objects by chaining operators.
-* Objects are mutable—we can change their properties even when they’re declared with `const`.
-* Objects are passed by reference— when we make changes to an object passed into a function, those changes are permanent.
-* We can iterate through objects using the `For...in` syntax.
+We can add methods to our object literals using key-value syntax with anonymous function expressions as values or by using the new ES6 method syntax.
+
+
+
+```javascript
+object = {
+    key: "value",
+    key2: {
+        "sub Key1": {
+            subSubKey1: "subSubValue1",
+            subSubKey2: "subSubValue2",
+        },
+        subKey2: "subValue2"
+    }
+}
+
+console.log(object.key2["sub Key1"].subSubKey1)
+
+>>>subSubValue1
+```
+
+We can navigate complex, nested objects by chaining operators.
+
+
+
+Objects are mutable—we can change their properties even when they’re declared with `const`.
+
+Objects are passed by reference— when we make changes to an object passed into a function, those changes are permanent.
+
+
+
+```javascript
+object = {
+    key: "value",
+    key2: {
+        "sub Key1": {
+            subSubKey1: "subSubValue1",
+            subSubKey2: "subSubValue",
+        },
+        subKey2: "subValue2"
+    }
+}
+
+for (const property in object) {
+    console.log(property);
+}
+
+>>>key
+>>>key2
+```
+
+We can iterate through objects using the `For...in` syntax.
 
