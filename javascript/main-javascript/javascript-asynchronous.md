@@ -49,6 +49,10 @@ promise1.then((value) => {
 
 We use `.then()` with a success handler callback containing the logic for what should happen if a promise resolves.
 
+
+
+
+
 ```javascript
 const promise1 = new Promise((resolve, reject) => {
     setTimeout(() => {
