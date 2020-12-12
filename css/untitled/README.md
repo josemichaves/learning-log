@@ -1,5 +1,7 @@
 # Main CSS
 
+![](../../.gitbook/assets/css3_logo_and_wordmark.svg.png)
+
 {% page-ref page="flexbox.md" %}
 
 {% page-ref page="css-grid.md" %}

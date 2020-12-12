@@ -6,6 +6,8 @@ The object that a method belongs to is called the _calling object_.
 
 
 
+The `this` keyword refers the calling object and can be used to access properties of the calling object. If you want to use a property that is not in the acutal scope, you should use `.this` to be able to use it.
+
 ```javascript
 var person = {
   firstName: "John",
@@ -17,15 +19,11 @@ var person = {
 };
 ```
 
-The `this` keyword refers the calling object and can be used to access properties of the calling object. If you want to use a property that is not in the acutal scope, you should use `.this` to be able to use it.
-
-
-
 
 
 Methods do not automatically have access to other internal properties of the calling object.
 
-
+The value of `this` depends on where the `this` is being accessed from.
 
 ```javascript
 var obj = { a: 'Custom' };
@@ -40,7 +38,7 @@ console.log(whatsThis());          // 'Global' as this in the function isn't set
 console.log(whatsThis.call(obj));  // 'Custom' as this in the function is set to obj
 ```
 
-The value of `this` depends on where the `this` is being accessed from.
+
 
 We cannot use arrow functions as methods if we want to access other internal properties.
 
@@ -48,7 +46,7 @@ We cannot use arrow functions as methods if we want to access other internal pro
 
 JavaScript objects do not have built-in privacy, rather there are conventions to follow to notify other developers about the intent of the code.
 
-
+The usage of an underscore before a property name means that the original developer did not intend for that property to be directly changed.
 
 ```javascript
 var person = {
@@ -61,9 +59,9 @@ var person = {
 };
 ```
 
-The usage of an underscore before a property name means that the original developer did not intend for that property to be directly changed.
 
 
+ Setters and getter methods allow for more detailed ways of accessing and assigning properties. They should be declared **inside** the object. When they're called outside the function they don't need the `()`although they seem like a `method`
 
 ```javascript
 const person = {
@@ -99,9 +97,9 @@ console.log(person)
 }
 ```
 
- Setters and getter methods allow for more detailed ways of accessing and assigning properties. They should be declared **inside** the object. When they're called outside the function they don't need the `()`although they seem like a `method`
 
 
+Factory functions allow us to create object instances quickly and repeatedly.
 
 ```javascript
 const Person = function (name, age) {
@@ -113,13 +111,25 @@ const Person = function (name, age) {
 const jeff = new Person('jeff', 27);
 ```
 
-Factory functions allow us to create object instances quickly and repeatedly.
-
-
-
 
 
 There are different ways to use object destructuring: one way is the property value shorthand and another is destructured assignment.
 
-* As with any concept, it is a good skill to learn how to use the documentation with objects!
+```javascript
+const person = {
+    fName: `John`,
+    lName: `Snow`,
+    location: `Winterfell`,
+    nickname: `The Bastard of the Starks`
+}
+
+const printInfo = ({ fName, lName, location, nickname }) => {
+    console.log(`${fName} ${lName} from ${location}, his nickname is ${nickname}`)
+}
+
+printInfo(person)
+
+>>>John Snow from Winterfell, his nickname is The Bastard of the Starks
+
+```
 

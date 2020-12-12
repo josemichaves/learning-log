@@ -1,12 +1,10 @@
 # JavaScript Basis
 
-
+Print the data in the terminal
 
 ```javascript
 console.log('to print');
 ```
-
-Print the data in the terminal
 
 
 

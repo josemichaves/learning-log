@@ -2,6 +2,8 @@
 
 
 
+Objects store collections of _key-value_ pairs.
+
 ```javascript
 object = {
     key: value,
@@ -9,9 +11,9 @@ object = {
 };
 ```
 
-Objects store collections of _key-value_ pairs.
 
 
+Each key-value pair is a property—when a property is a function it is known as a method.
 
 ```javascript
 object = {
@@ -22,9 +24,9 @@ object = {
 };
 ```
 
-Each key-value pair is a property—when a property is a function it is known as a method.
 
 
+An object literal is composed of comma-separated key-value pairs surrounded by curly braces. An object literal is an object inside another object
 
 ```javascript
 object = {
@@ -36,9 +38,9 @@ object = {
 }
 ```
 
-An object literal is composed of comma-separated key-value pairs surrounded by curly braces. An object literal is an object inside another object
 
 
+You can access, add or edit a property within an object by using dot notation or bracket notation.
 
 ```javascript
 object = {
@@ -61,11 +63,11 @@ console.log(object)
 }
 ```
 
-You can access, add or edit a property within an object by using dot notation or bracket notation.
 
 
 
 
+We can add methods to our object literals using key-value syntax with anonymous function expressions as values or by using the new ES6 method syntax.
 
 ```javascript
 object = {
@@ -83,9 +85,9 @@ console.log(object.key())
 >>> Hello!!
 ```
 
-We can add methods to our object literals using key-value syntax with anonymous function expressions as values or by using the new ES6 method syntax.
 
 
+We can navigate complex, nested objects by chaining operators.
 
 ```javascript
 object = {
@@ -104,8 +106,6 @@ console.log(object.key2["sub Key1"].subSubKey1)
 >>>subSubValue1
 ```
 
-We can navigate complex, nested objects by chaining operators.
-
 
 
 Objects are mutable—we can change their properties even when they’re declared with `const`.
@@ -113,6 +113,10 @@ Objects are mutable—we can change their properties even when they’re declare
 Objects are passed by reference— when we make changes to an object passed into a function, those changes are permanent.
 
 
+
+
+
+We can iterate through objects using the `For...in` syntax.
 
 ```javascript
 object = {
@@ -133,6 +137,4 @@ for (const property in object) {
 >>>key
 >>>key2
 ```
-
-We can iterate through objects using the `For...in` syntax.
 

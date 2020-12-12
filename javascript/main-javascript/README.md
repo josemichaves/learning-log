@@ -1,5 +1,7 @@
 # Main JavaScript
 
+![](../../.gitbook/assets/480px-unofficial_javascript_logo_2.svg.png)
+
 {% page-ref page="javascript-basis.md" %}
 
 {% page-ref page="javascript-variables.md" %}
@@ -31,6 +33,10 @@
 {% page-ref page="javascript-asynchronous.md" %}
 
 {% page-ref page="javascript-async-await.md" %}
+
+{% page-ref page="javascript-requests.md" %}
+
+
 
 
 

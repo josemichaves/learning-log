@@ -6,6 +6,8 @@ _Classes_ are templates for objects.
 
 
 
+Javascript calls a _constructor_ method when we create a new instance of a class.
+
 ```javascript
 class NewClass{
     constructor(param1, param2) {
@@ -15,13 +17,17 @@ class NewClass{
 
 ```
 
-Javascript calls a _constructor_ method when we create a new instance of a class.
-
 
 
 _Inheritance_ is when we create a parent class with properties and methods that we can extend to child classes.
 
 
+
+We use the `extends` keyword to create a subclass.
+
+The `super` keyword calls the `constructor()` of a parent class.
+
+With `new Class` we create new instances of the class
 
 ```javascript
 class NewClass{
@@ -37,12 +43,6 @@ class NewSubClass extends NewClass{
     
 const class1 = new Class(param1, param2);
 ```
-
-We use the `extends` keyword to create a subclass.
-
-The `super` keyword calls the `constructor()` of a parent class.
-
-With `new Class` we create new instances of the class
 
 
 

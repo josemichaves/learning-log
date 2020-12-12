@@ -1,6 +1,6 @@
 # Main HTML
 
-
+![](../../.gitbook/assets/html5_logo_512.png)
 
 {% page-ref page="untitled.md" %}
 

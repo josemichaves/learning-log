@@ -33,9 +33,16 @@
   * [JavaScript Browser Compatibility and Transpilation](javascript/main-javascript/javascript-browser-compatibility-and-transpilation.md)
   * [JavaScript Modules](javascript/main-javascript/javascript-modules.md)
   * [JavaScript Asynchronous](javascript/main-javascript/javascript-asynchronous.md)
-  * [JavaScript Promises](javascript/main-javascript/javascript-promises.md)
   * [JavaScript Async Await](javascript/main-javascript/javascript-async-await.md)
   * [JavaScript Requests](javascript/main-javascript/javascript-requests.md)
+
+## React
+
+* [Main React](react/main-react/README.md)
+  * [React JSX](react/main-react/react-jsx.md)
+  * [React Components](react/main-react/react-components.md)
+  * [React Component States](react/main-react/react-component-states.md)
+  * [React Lifecycle Methods](react/main-react/react-lifecycle-methods.md)
 
 ## Git
 
@@ -51,4 +58,9 @@
     * [Advanced Syntax](others/main/markdown/advanced-syntax.md)
   * [Bash](others/main/bash.md)
   * [FlowCharts](others/main/flowcharts.md)
+  * [General Web Knowledge](others/main/general-web-knowledge/README.md)
+    * [Minification and Obfuscation](others/main/general-web-knowledge/minification-and-obfuscation.md)
+  * [General Programming Knowledge](others/main/general-programming-knowledge/README.md)
+    * [Garbage Collector](others/main/general-programming-knowledge/garbage-collector.md)
+    * [Lazy Loading](others/main/general-programming-knowledge/lazy-loading.md)
 

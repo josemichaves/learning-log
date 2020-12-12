@@ -2,6 +2,12 @@
 
 
 
+An `if` statement checks a condition and will execute a task if that condition evaluates to `true`.
+
+`if...else` statements make binary decisions and execute different code blocks based on a provided condition.
+
+We can add more conditions using `else if` statements.
+
 ```javascript
 let name = 'Mick';
 
@@ -16,13 +22,9 @@ if (name === 'John'){
 >>> Hello Mick!
 ```
 
-An `if` statement checks a condition and will execute a task if that condition evaluates to `true`.
-
-`if...else` statements make binary decisions and execute different code blocks based on a provided condition.
-
-We can add more conditions using `else if` statements.
 
 
+Comparison operators, including `<`, `>`, `<=`, `>=`, `===`, and `!==` can compare two values.
 
 ```javascript
 let name = 'mick';
@@ -37,9 +39,11 @@ if (age => 18) {
 >>>You're not an adult yet
 ```
 
-Comparison operators, including `<`, `>`, `<=`, `>=`, `===`, and `!==` can compare two values.
 
 
+The logical and operator, `&&`, or “and”, checks if both provided expressions are truthy.
+
+The logical operator `||`, or “or”, checks if either provided expression is truthy.
 
 ```javascript
 let name = '';
@@ -54,11 +58,9 @@ if (age === 10) && (name === 'mick') {
 >>> You're 10 years old, but i don't know your name
 ```
 
-The logical and operator, `&&`, or “and”, checks if both provided expressions are truthy.
-
-The logical operator `||`, or “or”, checks if either provided expression is truthy.
 
 
+The `!`, switches the truthiness and falsiness of a value. Logical NOT operator.
 
 ```javascript
 let name = 'Mick';
@@ -72,9 +74,9 @@ if (!name) {
 >>> Maybe your name is mick
 ```
 
-The `!`, switches the truthiness and falsiness of a value. Logical NOT operator.
 
 
+The ternary operator is shorthand to simplify concise `if...else` statements.
 
 ```javascript
 let name='mick'
@@ -85,13 +87,9 @@ if (name==='mick') ? console.log('You\'re mick!') : console.log('You\'re not mic
 
 ```
 
-The ternary operator is shorthand to simplify concise `if...else` statements.
 
-let day='5';
 
-switch \(day\) { case '0': day='Monday'; break; case '1': day='Thursday'; break; case '2': day='Wednesday'; break; default: day='Don\'t know what day is' }
-
-console.log\(day\)
+A `switch` statement can be used to simplify the process of writing multiple `else if` statements. The `break` keyword stops the remaining `case`s from being checked and executed in a `switch` statement.
 
 ```javascript
 let day=2
@@ -117,6 +115,4 @@ console.log(day)
 
 
 ```
-
-A `switch` statement can be used to simplify the process of writing multiple `else if` statements. The `break` keyword stops the remaining `case`s from being checked and executed in a `switch` statement.
 

@@ -4,13 +4,15 @@ Loops perform repetitive actions so we don’t have to code that process manuall
 
 
 
+How to write `for` loops with an iterator variable that increments or decrements
+
 ```javascript
 for(let i = 10; i < array.length; i--)
 ```
 
-How to write `for` loops with an iterator variable that increments or decrements
 
 
+How to use a `for` loop to iterate through an array
 
 ```javascript
 myArray = [1, 2, 3, 4, 5];
@@ -26,9 +28,9 @@ for (let i = 0; i < myArray.length; i++) {
 >>> 5
 ```
 
-How to use a `for` loop to iterate through an array
 
 
+A nested `for` loop is a loop inside another loop
 
 ```javascript
 myArray = [1, 2, 3, 4, 5];
@@ -57,9 +59,11 @@ for (let i = 0; i < myArray.length; i++) {
 ...
 ```
 
-A nested `for` loop is a loop inside another loop
 
 
+`while` loops allow for different types of stopping conditions
+
+Stopping conditions are crucial for avoiding infinite loops.
 
 ```javascript
 myArray = [];
@@ -74,11 +78,9 @@ console.log(myArray)
 >>> [ 'Number 0', 'Number 1', 'Number 2', 'Number 3' ]
 ```
 
-`while` loops allow for different types of stopping conditions
-
-Stopping conditions are crucial for avoiding infinite loops.
 
 
+`do-while` loops run code at least once— only checking the stopping condition after the first execution
 
 ```javascript
 let result = '';
@@ -94,11 +96,11 @@ console.log(result);
 >>> 1
 ```
 
-`do-while` loops run code at least once— only checking the stopping condition after the first execution
-
 ![Do-While FlowChart explanation](../../.gitbook/assets/do...while.flowchart.png)
 
 
+
+The `break` keyword allows programs to leave a loop during the execution of its block
 
 ```javascript
 myArray = [];
@@ -114,6 +116,4 @@ console.log(myArray)
 
 >>> [ 'Number 0', 'Number 1']
 ```
-
-The `break` keyword allows programs to leave a loop during the execution of its block
 

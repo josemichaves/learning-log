@@ -1,5 +1,7 @@
 # Main Git
 
+![](../../.gitbook/assets/1280px-git-logo.svg.png)
+
 {% page-ref page="basic-commands.md" %}
 
 {% page-ref page="advanced-commands.md" %}
