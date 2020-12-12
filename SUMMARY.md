@@ -58,9 +58,9 @@
     * [Advanced Syntax](others/main/markdown/advanced-syntax.md)
   * [Bash](others/main/bash.md)
   * [FlowCharts](others/main/flowcharts.md)
-  * [General Web Knowledge](others/main/general-web-knowledge/README.md)
-    * [Minification and Obfuscation](others/main/general-web-knowledge/minification-and-obfuscation.md)
   * [General Programming Knowledge](others/main/general-programming-knowledge/README.md)
     * [Garbage Collector](others/main/general-programming-knowledge/garbage-collector.md)
     * [Lazy Loading](others/main/general-programming-knowledge/lazy-loading.md)
+  * [General Web Knowledge](others/main/general-web-knowledge/README.md)
+    * [Minification and Obfuscation](others/main/general-web-knowledge/minification-and-obfuscation.md)
 
