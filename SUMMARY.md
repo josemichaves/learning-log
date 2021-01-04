@@ -43,6 +43,7 @@
   * [React Components](react/main-react/react-components.md)
   * [React Component States](react/main-react/react-component-states.md)
   * [React Lifecycle Methods](react/main-react/react-lifecycle-methods.md)
+  * [React Hooks](react/main-react/react-hooks.md)
 
 ## Git
 
