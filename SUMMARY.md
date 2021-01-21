@@ -18,6 +18,7 @@
   * [CSS Methodologies](css/untitled/css-methodologies/README.md)
     * [BEM](css/untitled/css-methodologies/bem.md)
     * [OOCSS](css/untitled/css-methodologies/oocss.md)
+  * [Pseudo-classes](css/untitled/pseudo-classes.md)
 
 ## JavaScript
 
