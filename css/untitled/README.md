@@ -6,5 +6,11 @@
 
 {% page-ref page="css-grid.md" %}
 
+{% page-ref page="advanced-css-grid.md" %}
+
+{% page-ref page="css-specifity.md" %}
+
+
+
 CSS CheatSheet: [https://websitesetup.org/wp-content/uploads/2019/11/wsu-css-cheat-sheet-gdocs.pdf](https://websitesetup.org/wp-content/uploads/2019/11/wsu-css-cheat-sheet-gdocs.pdf)
 

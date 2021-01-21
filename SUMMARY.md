@@ -14,6 +14,10 @@
   * [FlexBox](css/untitled/flexbox.md)
   * [CSS Grid](css/untitled/css-grid.md)
   * [Advanced CSS Grid](css/untitled/advanced-css-grid.md)
+  * [CSS Specifity](css/untitled/css-specifity.md)
+  * [CSS Methodologies](css/untitled/css-methodologies/README.md)
+    * [BEM](css/untitled/css-methodologies/bem.md)
+    * [OOCSS](css/untitled/css-methodologies/oocss.md)
 
 ## JavaScript
 
