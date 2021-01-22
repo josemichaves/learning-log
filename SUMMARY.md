@@ -40,6 +40,7 @@
   * [JavaScript Asynchronous](javascript/main-javascript/javascript-asynchronous.md)
   * [JavaScript Async Await](javascript/main-javascript/javascript-async-await.md)
   * [JavaScript Requests](javascript/main-javascript/javascript-requests.md)
+  * [ECMAScript](javascript/main-javascript/ecmascript.md)
 
 ## React
 
