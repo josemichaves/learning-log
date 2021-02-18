@@ -20,6 +20,7 @@
     * [OOCSS](css/untitled/css-methodologies/oocss.md)
   * [Pseudo-classes](css/untitled/pseudo-classes.md)
   * [Animations and Transitions](css/untitled/animations-and-transitions.md)
+  * [Animations and Transitions](css/untitled/animations-and-transitions-1.md)
 * [CSS Libraries and Frameworks](css/css-libraries-and-frameworks/README.md)
   * [Frameworks](css/css-libraries-and-frameworks/frameworks/README.md)
     * [SASS](css/css-libraries-and-frameworks/frameworks/sass.md)
