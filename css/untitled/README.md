@@ -10,9 +10,11 @@
 
 {% page-ref page="advanced-css-grid.md" %}
 
-
-
 {% page-ref page="css-specifity.md" %}
+
+{% page-ref page="css-methodologies/" %}
+
+{% page-ref page="pseudo-classes.md" %}
 
 
 
