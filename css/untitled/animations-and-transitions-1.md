@@ -2,7 +2,94 @@
 
 ## Animations
 
+CSS animations allows an alement to gradually change the style from another
 
+With the `@keyframes` we specify what the animation will do, and with the `animation-name` we bind this `@keyframes` to the element. And with the `animation-duration`, we specify how much will take to complete the animation.
+
+{% tabs %}
+{% tab title="HTML" %}
+```markup
+<html>
+<body>
+
+<div></div>
+
+<p><b>Note:</b> When an animation is finished, it changes back to its original 
+style.</p>
+
+</body>
+</html>
+```
+{% endtab %}
+
+{% tab title="CSS" %}
+```css
+div {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 4s;
+}
+
+@keyframes example {
+  from {background-color: red;}
+  to {background-color: yellow;}
+}
+```
+{% endtab %}
+{% endtabs %}
+
+![](../../.gitbook/assets/animation1.gif)
+
+We can delay the animation with the `animation-delay` property.
+
+And we can even repeat the animation a certain amount of times with the `animation-iteration-count`.
+
+And with the `animation` shorthand we can specify the following properties, in the following order:
+
+1. `animation-name` specify the name of the aniimation
+2. `animation-duration` how much it lasts the animation
+3. `animation-timing-function`the speed curve that the animation will follow
+4. `animation-delay` how much will take the animation to start
+5. `animation-iteration-count` how many times will the animation occurrs
+6. `animation-direction` which direction will follow the animation
+
+{% tabs %}
+{% tab title="HTML" %}
+```markup
+</html>
+<body>
+
+<div></div>
+
+</body>
+</html>
+```
+{% endtab %}
+
+{% tab title="CSS" %}
+```css
+div {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  animation: myfirst 5s linear 2s 3 alternate;
+}
+
+@keyframes myfirst {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+```
+{% endtab %}
+{% endtabs %}
+
+![](../../.gitbook/assets/animation2.gif)
 
 ## Transitions
 
