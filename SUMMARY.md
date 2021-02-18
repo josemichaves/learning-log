@@ -22,8 +22,10 @@
   * [Animations and Transitions](css/untitled/animations-and-transitions-1.md)
 * [CSS Libraries and Frameworks](css/css-libraries-and-frameworks/README.md)
   * [Frameworks](css/css-libraries-and-frameworks/frameworks/README.md)
+    * [LESS](css/css-libraries-and-frameworks/frameworks/less.md)
     * [SASS](css/css-libraries-and-frameworks/frameworks/sass.md)
-  * [Libraries](css/css-libraries-and-frameworks/libraries.md)
+  * [Libraries](css/css-libraries-and-frameworks/libraries/README.md)
+    * [Bootstrap](css/css-libraries-and-frameworks/libraries/bootstrap.md)
 
 ## JavaScript
 

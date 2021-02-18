@@ -4,7 +4,7 @@
 
 {% page-ref page="frameworks/" %}
 
-{% page-ref page="libraries.md" %}
+{% page-ref page="libraries/" %}
 
 
 
