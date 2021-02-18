@@ -23,6 +23,7 @@
 * [CSS Libraries and Frameworks](css/css-libraries-and-frameworks/README.md)
   * [Frameworks](css/css-libraries-and-frameworks/frameworks/README.md)
     * [SASS](css/css-libraries-and-frameworks/frameworks/sass.md)
+  * [Libraries](css/css-libraries-and-frameworks/libraries.md)
 
 ## JavaScript
 
