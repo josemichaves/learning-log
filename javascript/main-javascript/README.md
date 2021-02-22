@@ -1,6 +1,6 @@
 # Main JavaScript
 
-![](../../.gitbook/assets/480px-unofficial_javascript_logo_2.svg.png)
+![](../../.gitbook/assets/javascript-logo.png)
 
 {% page-ref page="javascript-basis.md" %}
 

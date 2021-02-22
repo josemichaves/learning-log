@@ -70,5 +70,5 @@ There're two rules of hooks:
 
 You cannot call hooks inside loops, conditions or nested functions.
 
-Hooks can only be called inside react functions.
+### **Hooks can only be called inside react functions.**
 

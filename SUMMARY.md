@@ -6,7 +6,7 @@
 
 * [Main HTML](html/main/README.md)
   * [Tags](html/main/untitled.md)
-  * [Useful Links](html/main/useful-links.md)
+  * [Accesibility](html/main/accesibility.md)
 
 ## CSS
 
@@ -65,6 +65,7 @@
 * [Main Git](git/untitled/README.md)
   * [Basic Commands](git/untitled/basic-commands.md)
   * [Advanced Commands](git/untitled/advanced-commands.md)
+  * [Resolve conflicts](git/untitled/resolve-conflicts.md)
 
 ## Others
 

@@ -10,5 +10,5 @@
 
 {% page-ref page="react-lifecycle-methods.md" %}
 
-
+{% page-ref page="react-hooks.md" %}
 
