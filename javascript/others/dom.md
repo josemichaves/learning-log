@@ -37,7 +37,7 @@ First of all we need to insert the Javascript in to the html.
 // or
 
 <body>
-    <script src="myJS.js"> /* It needs to be at the end of the body */ </script>
+    <script src="myJs.js"> /* It needs to be at the end of the body */ </script>
 </body>
 
 ```
