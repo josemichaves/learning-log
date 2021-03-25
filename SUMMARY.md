@@ -71,6 +71,7 @@
 ## Others
 
 * [Main](others/main/README.md)
+  * [Microservices](others/main/microservices.md)
   * [Markdown](others/main/markdown/README.md)
     * [Basic Syntax](others/main/markdown/basic-syntax.md)
     * [Advanced Syntax](others/main/markdown/advanced-syntax.md)
