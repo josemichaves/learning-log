@@ -48,6 +48,7 @@
   * [JavaScript Async Await](javascript/main-javascript/javascript-async-await.md)
   * [JavaScript Requests](javascript/main-javascript/javascript-requests.md)
   * [ECMAScript](javascript/main-javascript/ecmascript.md)
+  * [Javascript Generators](javascript/main-javascript/javascript-generators.md)
 * [Others](javascript/others/README.md)
   * [DOM](javascript/others/dom.md)
 
