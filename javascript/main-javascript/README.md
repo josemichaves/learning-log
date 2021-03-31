@@ -38,9 +38,5 @@
 
 {% page-ref page="ecmascript.md" %}
 
-
-
-
-
-
+{% page-ref page="javascript-generators.md" %}
 
