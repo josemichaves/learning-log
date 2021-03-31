@@ -84,5 +84,6 @@
     * [Lazy Loading](others/main/general-programming-knowledge/lazy-loading.md)
   * [General Web Knowledge](others/main/general-web-knowledge/README.md)
     * [Minification and Obfuscation](others/main/general-web-knowledge/minification-and-obfuscation.md)
+  * [Enviroment Variables](others/main/enviroment-variables.md)
   * [Code Efficiency](others/main/code-efficiency.md)
 

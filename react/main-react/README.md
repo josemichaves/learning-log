@@ -12,3 +12,7 @@
 
 {% page-ref page="react-hooks.md" %}
 
+{% page-ref page="react-function-components.md" %}
+
+{% page-ref page="react-forms.md" %}
+
