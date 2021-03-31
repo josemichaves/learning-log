@@ -61,6 +61,7 @@
   * [React Lifecycle Methods](react/main-react/react-lifecycle-methods.md)
   * [React Hooks](react/main-react/react-hooks.md)
   * [React Function Components](react/main-react/react-function-components.md)
+  * [React Forms](react/main-react/react-forms.md)
 
 ## Git
 
@@ -83,4 +84,5 @@
     * [Lazy Loading](others/main/general-programming-knowledge/lazy-loading.md)
   * [General Web Knowledge](others/main/general-web-knowledge/README.md)
     * [Minification and Obfuscation](others/main/general-web-knowledge/minification-and-obfuscation.md)
+  * [Code Efficiency](others/main/code-efficiency.md)
 

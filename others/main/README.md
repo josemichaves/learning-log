@@ -12,6 +12,8 @@
 
 {% page-ref page="microservices.md" %}
 
+{% page-ref page="code-efficiency.md" %}
+
 
 
 
