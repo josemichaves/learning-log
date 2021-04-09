@@ -73,6 +73,7 @@
 ## Others
 
 * [Main](others/main/README.md)
+  * [Authentication and Authorization](others/main/authentication-and-authorization.md)
   * [Bash](others/main/bash.md)
   * [Code Efficiency](others/main/code-efficiency.md)
   * [Enviroment Variables](others/main/enviroment-variables.md)
