@@ -63,6 +63,13 @@
   * [React Function Components](react/main-react/react-function-components.md)
   * [React Forms](react/main-react/react-forms.md)
 
+## Popular Libraries
+
+* [Libaries](popular-libraries/libraries/README.md)
+  * [Axios](popular-libraries/libraries/axios.md)
+  * [Express](popular-libraries/libraries/express.md)
+  * [Moment](popular-libraries/libraries/moment.md)
+
 ## Git
 
 * [Main Git](git/untitled/README.md)
@@ -87,11 +94,4 @@
     * [Basic Syntax](others/main/markdown/basic-syntax.md)
     * [Advanced Syntax](others/main/markdown/advanced-syntax.md)
   * [Microservices](others/main/microservices.md)
-
-## Popular Libraries
-
-* [Libaries](popular-libraries/libraries/README.md)
-  * [Express](popular-libraries/libraries/express.md)
-  * [Axios](popular-libraries/libraries/axios.md)
-  * [Moment](popular-libraries/libraries/moment.md)
 
