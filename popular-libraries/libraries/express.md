@@ -38,34 +38,44 @@ If we want to get the places available, we'll use Get. We'll call the get method
 ```javascript
 app.get('/places', (req, res) => {
     res.send(['place1', 'place2', 'place3'])
-}
+})
 ```
 
 Same in Post, but in the Post normally we need to deal with the req parameter. In the req we can have various ways to data to come, body, params, query, headers, etc... Every has its own call. Here we're creating a new place and we're getting the data from the body, assigning it to a new variable, and then send it to the DB, finally we return an ok to notice the creation was correct.
 
 ```javascript
 app.post('/newPlace', (req, res) => {
-    const place = {name: req.body.name, city: req.body.city});
-    introduceNewEntryInDB(place);
-    res.send({ok: true, err:''});
+    const place = {
+        name: req.body.name,
+        city: req.body.city
+    }); introduceNewEntryInDB(place); res.send({
+    ok: true,
+    err: ''
+});
 });
 ```
 
 The Put method allows us to update an entry. In this one we'll specify the place we want to update via the path we send the request, to declare a variable inside express we can do it like this `:variable`, with this we can deal with this variable even if we don't know the exact value of it.
 
 ```javascript
-app.put('place/:placeName', (req,res) => {
+app.put('place/:placeName', (req, res) => {
     modifyPlaceInDB(req.params.placeName);
-    res.send({ok: true, err:''};
+    res.send({
+        ok: true,
+        err: ''
+    });
 });
 ```
 
 And finally the Delete, we we'll delete an entry in the DB, but using the same path we use to modify an  existing place, Express allows us to use the same path to different purposes if the method changes.
 
 ```javascript
-app.delete('place/:placeName', (req,res) => { 
-    deletePlaceInDB(req.params.placeName); 
-    res.send({ok: true, err:''}; 
+app.put('place/:placeName', (req, res) => {
+    modifyPlaceInDB(req.params.placeName);
+    res.send({
+        ok: true,
+        err: ''
+    });
 });
 ```
 
@@ -84,11 +94,15 @@ Also one of the superpowers of Express it's the ability to write middleware, a m
 The main difference of writing a middleware is the adding of a third parameter in the handler the `next()` parameter, what this parameter does it's to follow the execution of the request once we want, in this case we will verify if the user has a token in the headers of the request. If it's user we'll follow the execution, if not we'll throw a status code of 401 \(Unauthorized\) and an error.
 
 ```javascript
-app.use ( (req, res, next) => {
+app.use((req, res, next) => {
     if (req.headers.token) {
         next()
     } else {
-        res.send({ok: false, err:'No token in headers'}).status(401)
+        res.send({
+            ok: false,
+            err: 'No token in headers'
+        }).status(401)
+    }
 })
 ```
 
@@ -99,13 +113,21 @@ const hasToken = (req, res, next) => {
     if (req.headers.token) {
         next()
     } else {
-        res.send({ok: false, err:'No token in headers'})
+        res.send({
+            ok: false,
+            err: 'No token in headers'
+        })
     }
-    
+}
+
 app.post('/newPlace', hasToken, (req, res) => {
-    const place = {name: req.body.name, city: req.body.city});
-    introduceNewEntryInDB(place);
-    res.send({ok: true, err:''});
+    const place = {
+        name: req.body.name,
+        city: req.body.city
+    }); introduceNewEntryInDB(place); res.send({
+    ok: true,
+    err: ''
+});
 });
 ```
 

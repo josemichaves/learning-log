@@ -6,11 +6,11 @@ Moment is a library that allows us to parse, validate, manipulate, and display d
 
 ## The basic unit
 
-The basic unit of Moment Js is the `moment()` object, if we call this object alone it will give us the moment of today.
+The basic unit of MomentJs is the `moment()` object, if we call this object alone, it will give us the moment of today.
 
 ## What is a moment?
 
-A moment is the unit in which moment js represent the data if we call `moment()` we'll get this
+A moment is the unit in which MomentJs represent the data if we call `moment()` we'll get this
 
 ```typescript
 Moment {
@@ -130,7 +130,7 @@ Moment is also useful to check if a date is valid we can use `moment(theDateToCh
 
 ## Manipulating dates
 
-With moment we can even alter the dates, we can subtract and add days, weeks, minutes or whatever we need to a date
+With MomentJs we can even alter the dates, we can subtract and add days, weeks, minutes or whatever we need for a date.
 
 ```typescript
 moment().add(5, 'days').format('DD-MM-YYYY')
@@ -140,7 +140,7 @@ moment().subtract(5, 'days').format('DD-MM-YYYY')
 //14-05-2021
 ```
 
-Calculating the difference between dates is also possible
+Calculating the difference between dates is also possible.
 
 ```typescript
 const dateStart = moment("05-05-2021", 'DD-MM-YYYY');
@@ -150,7 +150,7 @@ console.log(`Difference is ${dateEnd.diff(dateStart, "days")} days.`)
 //Difference is 25 days.
 ```
 
-Also check if a date is the same, before, after, etc of another date
+Also check if a date is the same, before, after, etc. of another date.
 
 ```typescript
 const dateStart = moment("05-05-2021", 'DD-MM-YYYY');
@@ -164,15 +164,15 @@ console.log(dateEnd.isAfter(dateStart))
 
 ## Timezones and locale
 
-We have a lot of timezones in the world, the "default" is the UTC, using UTC is easy.
+We have a lot of time-zones in the world, the "default" is the UTC, using UTC in MomentJs is easy.
 
-* Without `moment-timezone`
+* Without `moment-timezone`:
 
   ```typescript
   const momentDate = moment().utc()
   ```
 
-* With `moment-timezone`
+* With `moment-timezone`:
 
   ```typescript
   import * as moment from "moment-timezone"
@@ -182,9 +182,9 @@ We have a lot of timezones in the world, the "default" is the UTC, using UTC is 
   //miércoles 19-mayo-2021
   ```
 
-  * Moment-timezone is a library from MomentJs also that allows us to easily deal with the timezone.
+  * Moment-timezone is a library from MomentJs also that allows us to easily deal with the Timezone.
 
-Finally we can specify our local language to get the format accordingly
+Finally, we can specify our local language to get the format accordingly.
 
 ```typescript
 moment.locale("es");
