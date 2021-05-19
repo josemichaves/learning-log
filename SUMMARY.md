@@ -69,6 +69,7 @@
 * [Libaries](popular-libraries/libraries/README.md)
   * [Axios](popular-libraries/libraries/axios.md)
   * [Express](popular-libraries/libraries/express.md)
+  * [React Router](popular-libraries/libraries/react-router.md)
   * [Moment](popular-libraries/libraries/moment.md)
 
 ## Git
