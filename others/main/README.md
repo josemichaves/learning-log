@@ -1,5 +1,7 @@
 # Main
 
+{% page-ref page="authentication-and-authorization.md" %}
+
 {% page-ref page="bash.md" %}
 
 {% page-ref page="code-efficiency.md" %}
