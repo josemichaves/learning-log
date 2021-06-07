@@ -36,4 +36,7 @@ The HTTP status code allows us to send a code saying what just happened, if ther
 * 500 \(Internal server error\) - The server has encountered a situation it doesn't know to handle.
 * 502 \(Bad gateway\) - This error response means that the server, while working as a gateway to get a response needed to handle the request, got an invalid response.
 * 503 \(Service unavailable\) - The server is not ready to handle the request, common causes is the server is down or had an overload.
+* 504 \(Gateway timeout\) - This error response is given when the server is acting as a gateway and cannot get a response in time.
+* 508 \(Loop detected\) - An infinite loop while proceeding the request.
+* 511 \(Network authentication required\) - You must be authorized in order to make requests.
 
