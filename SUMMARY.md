@@ -50,6 +50,7 @@
   * [ECMAScript](javascript/main-javascript/ecmascript.md)
   * [Javascript Generators](javascript/main-javascript/javascript-generators.md)
 * [Others](javascript/others/README.md)
+  * [Babel Js](javascript/others/babel-js.md)
   * [DOM](javascript/others/dom.md)
 
 ## React
@@ -63,13 +64,25 @@
   * [React Hooks](react/main-react/react-hooks.md)
   * [React Function Components](react/main-react/react-function-components.md)
   * [React Forms](react/main-react/react-forms.md)
+  * [Popular libraries](react/main-react/popular-libraries-1/README.md)
+    * [React Router](react/main-react/popular-libraries-1/react-router.md)
+
+## Node JS
+
+* [APIs](node-js/apis/README.md)
+  * [REST API](node-js/apis/rest-api.md)
+  * [SOAP API](node-js/apis/soap-api.md)
+* [Data Persistance](node-js/data-persistance/README.md)
+  * [SQL](node-js/data-persistance/sql.md)
+  * [NoSQL](node-js/data-persistance/nosql.md)
+* [Microservices](node-js/microservices.md)
+* [Popular libraries](node-js/popular-libraries/README.md)
+  * [Express](node-js/popular-libraries/express.md)
 
 ## Popular Libraries
 
 * [Libaries](popular-libraries/libraries/README.md)
   * [Axios](popular-libraries/libraries/axios.md)
-  * [Express](popular-libraries/libraries/express.md)
-  * [React Router](popular-libraries/libraries/react-router.md)
   * [Moment](popular-libraries/libraries/moment.md)
 
 ## Git
@@ -95,7 +108,6 @@
   * [Markdown](others/main/markdown/README.md)
     * [Basic Syntax](others/main/markdown/basic-syntax.md)
     * [Advanced Syntax](others/main/markdown/advanced-syntax.md)
-  * [Microservices](others/main/microservices.md)
 
 ## Web APIs <a id="webapi"></a>
 
