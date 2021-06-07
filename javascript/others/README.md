@@ -1,4 +1,4 @@
 # Others
 
-{% page-ref page="dom.md" %}
+{% page-ref page="babel-js.md" %}
 

@@ -5,8 +5,9 @@
 ## HTML
 
 * [Main HTML](html/main/README.md)
-  * [Tags](html/main/untitled.md)
   * [Accesibility](html/main/accesibility.md)
+  * [Audio and Video](html/main/audio-and-video.md)
+  * [Tags](html/main/untitled.md)
 
 ## CSS
 
@@ -51,7 +52,13 @@
   * [Javascript Generators](javascript/main-javascript/javascript-generators.md)
 * [Others](javascript/others/README.md)
   * [Babel Js](javascript/others/babel-js.md)
-  * [DOM](javascript/others/dom.md)
+
+## DOM
+
+* [Main](dom/main/README.md)
+  * [Event bubbling](dom/main/event-bubbling.md)
+  * [Event capture](dom/main/event-capture.md)
+  * [Whats is the DOM?](dom/main/dom.md)
 
 ## React
 
@@ -69,16 +76,17 @@
 
 ## Node JS
 
-* [APIs](node-js/apis/README.md)
-  * [HTTP Status code](node-js/apis/http-status-code.md)
-  * [REST API](node-js/apis/rest-api.md)
-  * [SOAP API](node-js/apis/soap-api.md)
-* [Data Persistance](node-js/data-persistance/README.md)
-  * [SQL](node-js/data-persistance/sql.md)
-  * [NoSQL](node-js/data-persistance/nosql.md)
-* [Microservices](node-js/microservices.md)
-* [Popular libraries](node-js/popular-libraries/README.md)
-  * [Express](node-js/popular-libraries/express.md)
+* [Main](node-js/main/README.md)
+  * [APIs](node-js/main/apis/README.md)
+    * [How to connect to an API Rest?](node-js/main/apis/how-to-connect-to-an-api-rest.md)
+    * [REST API](node-js/main/apis/rest-api.md)
+    * [SOAP API](node-js/main/apis/soap-api.md)
+  * [Data Persistance](node-js/main/data-persistance/README.md)
+    * [SQL](node-js/main/data-persistance/sql.md)
+    * [NoSQL](node-js/main/data-persistance/nosql.md)
+  * [Microservices](node-js/main/microservices.md)
+  * [Popular libraries](node-js/main/popular-libraries/README.md)
+    * [Express](node-js/main/popular-libraries/express.md)
 
 ## Popular Libraries
 
@@ -105,6 +113,7 @@
     * [Garbage Collector](others/main/general-programming-knowledge/garbage-collector.md)
     * [Lazy Loading](others/main/general-programming-knowledge/lazy-loading.md)
   * [General Web Knowledge](others/main/general-web-knowledge/README.md)
+    * [HTTP Status code](others/main/general-web-knowledge/http-status-code.md)
     * [Minification and Obfuscation](others/main/general-web-knowledge/minification-and-obfuscation.md)
   * [Markdown](others/main/markdown/README.md)
     * [Basic Syntax](others/main/markdown/basic-syntax.md)
