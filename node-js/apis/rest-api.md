@@ -23,32 +23,32 @@ In order for an API to be considered RESTful, it has to conform to these criteri
 * A layered system that organizes each type of server \(those responsible for security, load-balancing, etc.\) involved the retrieval of requested information into hierarchies, invisible to the client.
 * Code-on-demand \(optional\): the ability to send executable code from the server to the client when requested, extending client functionality. 
 
-## How to interact with a REST Api?
+## How to interact with a REST API?
 
-A REST api is based in the CRUD operators.
+A REST API is based on the CRUD operators. 
 
-* GET: To retrieve data from the API.
-* PUT: To update data from the API.
-* DELETE: To remove data from the API.
-* POST: To insert data in the API.
+* GET: To retrieve data from the API. 
+* PUT: To update data from the API. 
+* DELETE: To remove data from the API. 
+* POST: To insert data in the API. 
 
-When we create a REST Api we also create the endpoints for this Api, this is the path where the services will make his request and then do what they need with the response.
+When we create a REST API we also create the endpoints for this API, this is the path where the services will make his request and then do what they need with the response.
 
 ## Endpoints in a REST API
 
-One important thing is how we declare our endpoints, we need to nest this path to acquire what we want for example if we have an endpoint to get the tickets from a cinema, we can filter them and so on, for example this way:
+One important thing is how we declare our endpoints, we need to nest this path to acquire what we want for example, if we have an endpoint to get the tickets from a cinema, we can filter them and so on, for example this way:
 
-* GET /tickets - Return all the tickets
-* GET /tickets/12 - Return only the ticket 12
-* POST /tickets - Create a new ticket
-* PUT /tickets/12 - Update the ticket 12
-* DELETE /tickets/12 - Deletes the ticket 12
+* GET /tickets - Return all the tickets.
+* GET /tickets/12 - Return only the ticket 12.
+* POST /tickets - Create a new ticket.
+* PUT /tickets/12 - Update the ticket 12.
+* DELETE /tickets/12 - Deletes the ticket 12.
 
-What we acomplish doing this is to have our endpoints reusable and standarized.
+What we accomplish doing this is to have our endpoints reusable and standardized.
 
 ## HTTP Status codes
 
-We always need to send a response code accordingly to what we've done in the Api, if there's a failure in the server side we'll throw a status code 500, if the request is not found a 404, if we created a user a 201 or if just an OK that the operations succesfully completed a 200. Doing this we always get a receipt in the client of what is happening in the server.
+We always need to send a response code accordingly to what we've done in the API, if there's a failure on the server side, we'll throw a status code 500, if the request doesn't find a 404, if we created a user a 201 or if just an OK that the operations successfully completed a 200. Doing this we always get a receipt in the client of what is happening on the server.
 
 
 

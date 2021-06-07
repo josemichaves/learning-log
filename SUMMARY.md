@@ -70,6 +70,7 @@
 ## Node JS
 
 * [APIs](node-js/apis/README.md)
+  * [HTTP Status code](node-js/apis/http-status-code.md)
   * [REST API](node-js/apis/rest-api.md)
   * [SOAP API](node-js/apis/soap-api.md)
 * [Data Persistance](node-js/data-persistance/README.md)
