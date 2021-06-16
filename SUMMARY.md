@@ -124,3 +124,9 @@
 * [Main Web APIs](webapi/main-web-apis/README.md)
   * [Storage](webapi/main-web-apis/storage.md)
 
+## Deploy
+
+* [Main](deploy/main/README.md)
+  * [Deploy frontend](deploy/main/deploy-frontend.md)
+  * [Deploy backend](deploy/main/deploy-backend.md)
+
