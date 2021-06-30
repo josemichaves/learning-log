@@ -85,6 +85,7 @@
     * [SQL](node-js/main/data-persistance/sql.md)
     * [NoSQL](node-js/main/data-persistance/nosql.md)
   * [Microservices](node-js/main/microservices.md)
+  * [Real Time Data](node-js/main/real-time-data.md)
   * [Popular libraries](node-js/main/popular-libraries/README.md)
     * [Express](node-js/main/popular-libraries/express.md)
 
