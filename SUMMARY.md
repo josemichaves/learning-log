@@ -68,7 +68,8 @@
   * [React Components](react/main-react/react-components.md)
   * [React Component States](react/main-react/react-component-states.md)
   * [React Lifecycle Methods](react/main-react/react-lifecycle-methods.md)
-  * [React Hooks](react/main-react/react-hooks.md)
+  * [React Hooks](react/main-react/react-hooks/README.md)
+    * [useRef\(\)](react/main-react/react-hooks/useref.md)
   * [React Function Components](react/main-react/react-function-components.md)
   * [React Forms](react/main-react/react-forms.md)
   * [Popular libraries](react/main-react/popular-libraries-1/README.md)
@@ -105,9 +106,10 @@
 ## Others
 
 * [Main](others/main/README.md)
-  * [Algorithms and Patterns](others/main/algorithms-and-patterns/README.md)
+  * [Algorithms, data structures and patterns](others/main/algorithms-and-patterns/README.md)
     * [Algorithms](others/main/algorithms-and-patterns/algorithms.md)
-    * [Patterns](others/main/algorithms-and-patterns/patterns/README.md)
+    * [Data structures](others/main/algorithms-and-patterns/data-structures.md)
+    * [Design patterns](others/main/algorithms-and-patterns/patterns/README.md)
       * [Creational patterns](others/main/algorithms-and-patterns/patterns/creational-patterns.md)
       * [Structural patterns](others/main/algorithms-and-patterns/patterns/structural-patterns.md)
       * [Behavioral patterns](others/main/algorithms-and-patterns/patterns/behavioral-patterns.md)

@@ -12,11 +12,13 @@
 
 {% page-ref page="react-lifecycle-methods.md" %}
 
-{% page-ref page="react-hooks.md" %}
+{% page-ref page="react-hooks/" %}
 
 {% page-ref page="react-function-components.md" %}
 
 {% page-ref page="react-forms.md" %}
+
+{% page-ref page="react-hooks/useref.md" %}
 
 {% page-ref page="popular-libraries-1/" %}
 
