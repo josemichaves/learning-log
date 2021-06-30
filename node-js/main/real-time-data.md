@@ -6,7 +6,7 @@ The real time data, is when a server is sending data at the moment to the client
 
 With real time data it's completely different, with the usage of the WebSocket protocol, a client and server can transmit data whenever they need to both parts. They open a connection with a handshake \(they accord to establish this connection and trusting each other\), and once the connection it's open they can start to share data.
 
-![This is how WebSocket works](../../.gitbook/assets/image%20%2838%29.png)
+![This is how WebSocket works](../../.gitbook/assets/image%20%2840%29.png)
 
 ## When we need to use real time data?
 

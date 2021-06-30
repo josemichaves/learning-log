@@ -105,6 +105,10 @@
 ## Others
 
 * [Main](others/main/README.md)
+  * [Algorithms and Patterns](others/main/algorithms-and-patterns/README.md)
+    * [Algorithms](others/main/algorithms-and-patterns/algorithms.md)
+    * [Patterns](others/main/algorithms-and-patterns/patterns/README.md)
+      * [Creational patterns](others/main/algorithms-and-patterns/patterns/creational-patterns.md)
   * [Authentication and Authorization](others/main/authentication-and-authorization.md)
   * [Bash](others/main/bash.md)
   * [Code Efficiency](others/main/code-efficiency.md)
