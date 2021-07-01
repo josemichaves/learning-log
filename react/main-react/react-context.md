@@ -1,5 +1,7 @@
 # React Context
 
+## What is context and how to use it?
+
 A React context is a state that persists along all the tree of React components, and let us to interact with this state even if we're not declaring this in the component.
 
 First of all we need to declare the context.
@@ -69,4 +71,12 @@ console.log(`Actual user is ${user}`);
 ```
 
 As we can see we can pass whatever we need in the context, such a state for defining a user, or a setter to set a new user.
+
+## When to use Context?
+
+Context is mainly used when the data that we want to share is needed by a lot of components, using the context, we can avoid passing the props too deep into the components, with the context we only declare once, and all the components that are wrapped will have this property accessible.
+
+If we only need to share this data in one component, or even two, is better to pass the data down as a prop.
+
+Because context sometimes complicates the way that we share data on the most top levels, and forces us to build a very flexible bottom component.
 

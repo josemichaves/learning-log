@@ -28,16 +28,16 @@ This example is a simple HTTP server in NodeJs
 * We create the server with the `http.createServer`
 * We put the status code for the response
 * The headers
-* And when we have an incoming request we send back the 'Hello World'
-* Finally we start the server with the `server.listen()`
+* And when we have an incoming request, we send back the 'Hello World'
+* Finally, we start the server with the `server.listen()`
 
 This is how a simple HTTP server is created in NodeJs.
 
-Basically NodeJs is a framework that allows us to execute JavaScript in the server side as we do in the client side.
+Basically NodeJs is a framework that allows us to execute JavaScript on the server side as we do on the client side.
 
 ## How NodeJs works
 
-The syntax for NodeJs is the same as JavaScript as the framework is based in this language \(altough it could also be used in Typescript\).
+The syntax for NodeJs is the same as JavaScript as the framework is based on this language \(although it could also be used in Typescript\).
 
 ### Data types
 
@@ -54,7 +54,7 @@ And NodeJs adds another data type, the _Buffer_ this data type is mainly used to
 
 ### Process
 
-As NodeJs runs in the server we have access to the properties of the server, such as the process id, enviroment variables, path of files, etc.
+As NodeJs runs on the server, we have access to the properties of the server, such as the process id, environment variables, path of files, etc.
 
 ```javascript
 process.env.MY_ENV_VAR
