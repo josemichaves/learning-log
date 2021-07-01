@@ -259,7 +259,7 @@ Ideally, the hash function will assign each key to a unique bucket, but most has
 
 ![Diagram of a hash table](../../../.gitbook/assets/image%20%2855%29.png)
 
-![Hash collision resolved by separate chaining.](../../../.gitbook/assets/image%20%2860%29.png)
+![Hash collision resolved by separate chaining.](../../../.gitbook/assets/image%20%2862%29.png)
 
 ```javascript
 import LinkedList from '../linked-list/LinkedList';
@@ -393,7 +393,7 @@ Binary search trees keep their keys in sorted order, so that lookup and other op
 
 A binary search tree of size 9 and depth 3, with 8 at the root. The leaves are not drawn.
 
-![Diagram for binary search tree](../../../.gitbook/assets/image%20%2859%29.png)
+![Diagram for binary search tree](../../../.gitbook/assets/image%20%2861%29.png)
 
 ```javascript
 import BinaryTreeNode from '../BinaryTreeNode';
@@ -555,7 +555,7 @@ In computer science, a **heap** is a specialized tree-based data structure that 
 
 In a _min heap_, if `P` is a parent node of `C`, then the key \(the value\) of `P` is less than or equal to the key of `C`.
 
-![In a max heap, the key of P is greater than or equal to the key of C](../../../.gitbook/assets/image%20%2858%29.png)
+![In a max heap, the key of P is greater than or equal to the key of C](../../../.gitbook/assets/image%20%2859%29.png)
 
 In a _max heap_, the key of `P` is greater than or equal to the key of `C`  
 

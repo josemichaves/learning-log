@@ -12,7 +12,7 @@ In mathematics, the Fibonacci numbers are the numbers in the following integer s
 
 A tiling with squares whose side lengths are successive Fibonacci numbers
 
-![Example of a Fibonacci sequence](../../../.gitbook/assets/image%20%2863%29.png)
+![Example of a Fibonacci sequence](../../../.gitbook/assets/image%20%2865%29.png)
 
 ```javascript
 /**
@@ -348,7 +348,7 @@ An example of merge sort. First divide the list into the smallest unit \(1 eleme
 
 
 
-![A recursive merge sort algorithm used to sort an array of 7 integer values. These are the steps a human would take to emulate merge sort \(top-down\).](../../../.gitbook/assets/image%20%2862%29.png)
+![A recursive merge sort algorithm used to sort an array of 7 integer values. These are the steps a human would take to emulate merge sort \(top-down\).](../../../.gitbook/assets/image%20%2864%29.png)
 
 ```javascript
 import Sort from '../Sort';

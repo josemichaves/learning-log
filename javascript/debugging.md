@@ -12,7 +12,13 @@ We can debug in the client or in the server:
 
 ### Client side
 
-In the client side, we can debug with the builtin debugger of the browser, we can stop the exectution by putting a `debugger` in the source code or a breakpoint
+In the client side, we can debug with the builtin debugger of the browser, we can stop the execution by putting a `debugger` in the source code or a breakpoint
+
+![Example of a breakpoint](../.gitbook/assets/image%20%2858%29.png)
+
+Once we put the breakpoint, the execution will stop in this line, and we'll be able to move in the code and see the variables at this time, even if they're not setted in this moment.
+
+![Example of a stopped execution](../.gitbook/assets/image%20%2860%29.png)
 
 
 
