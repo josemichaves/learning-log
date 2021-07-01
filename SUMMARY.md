@@ -50,6 +50,7 @@
   * [JavaScript Requests](javascript/main-javascript/javascript-requests.md)
   * [ECMAScript](javascript/main-javascript/ecmascript.md)
   * [Javascript Generators](javascript/main-javascript/javascript-generators.md)
+* [Debugging](javascript/debugging.md)
 * [Others](javascript/others/README.md)
   * [Babel Js](javascript/others/babel-js.md)
 
