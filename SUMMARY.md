@@ -147,3 +147,11 @@
   * [Deploy frontend](deploy/main/deploy-frontend.md)
   * [Deploy backend](deploy/main/deploy-backend.md)
 
+## Typescript
+
+* [Main](typescript/main/README.md)
+  * [Type annotations](typescript/main/type-annotations.md)
+  * [Interfaces](typescript/main/interfaces.md)
+  * [Intersection Types](typescript/main/intersection-types.md)
+  * [Generics](typescript/main/generics.md)
+
