@@ -1,6 +1,6 @@
 # Main
 
-![](../../.gitbook/assets/image%20%2871%29.png)
+![](../../.gitbook/assets/image%20%2872%29.png)
 
 One of the major problems of JavaScript it's the errors, JavaScript is a programming language that is interpreted and not compiled, this means that the browser in this case is just reading this code and not executing it, so if we have an error in our code this error will show up in the browser but not in the IDE, the other common problem, it's not having the correct data type, for example, if a function expects a number and we pass it a string, this function will fail, because the data type it's not correct, and this error also will show in the browser but not in the IDE, this is where TypeScript appears.
 
