@@ -8,6 +8,7 @@
   * [Accesibility](html/main/accesibility.md)
   * [Audio and Video](html/main/audio-and-video.md)
   * [Tags](html/main/untitled.md)
+  * [Additions to HTML5](html/main/additions-to-html5.md)
 
 ## CSS
 
@@ -27,6 +28,10 @@
     * [SASS](css/css-libraries-and-frameworks/frameworks/sass.md)
   * [Libraries](css/css-libraries-and-frameworks/libraries/README.md)
     * [Bootstrap](css/css-libraries-and-frameworks/libraries/bootstrap.md)
+* [Design](css/design/README.md)
+  * [Responsive](css/design/responsive.md)
+  * [Mobile First](css/design/mobile-first.md)
+* [Media Queries](css/media-queries.md)
 
 ## JavaScript
 
