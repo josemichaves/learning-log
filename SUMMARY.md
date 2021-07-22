@@ -13,6 +13,7 @@
 ## CSS
 
 * [Main CSS](css/untitled/README.md)
+  * [Animations and Transitions](css/untitled/animations-and-transitions-1.md)
   * [FlexBox](css/untitled/flexbox.md)
   * [CSS Grid](css/untitled/css-grid.md)
   * [Advanced CSS Grid](css/untitled/advanced-css-grid.md)
@@ -22,7 +23,6 @@
     * [OOCSS](css/untitled/css-methodologies/oocss.md)
   * [Pseudo-classes](css/untitled/pseudo-classes.md)
   * [Units](css/untitled/units.md)
-  * [Animations and Transitions](css/untitled/animations-and-transitions-1.md)
 * [CSS Libraries and Frameworks](css/css-libraries-and-frameworks/README.md)
   * [Frameworks](css/css-libraries-and-frameworks/frameworks/README.md)
     * [LESS](css/css-libraries-and-frameworks/frameworks/less.md)
