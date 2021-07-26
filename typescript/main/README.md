@@ -29,6 +29,8 @@ The TypeScript syntax, it's almost the same as JavaScript, but it has some uniqu
 
 {% page-ref page="type-annotations.md" %}
 
+{% page-ref page="../../others/main/general-programming-knowledge/type-inference.md" %}
+
 {% page-ref page="interfaces.md" %}
 
 {% page-ref page="intersection-types.md" %}

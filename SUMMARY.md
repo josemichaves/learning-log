@@ -59,6 +59,8 @@
 * [Debugging](javascript/debugging.md)
 * [Others](javascript/others/README.md)
   * [Babel Js](javascript/others/babel-js.md)
+  * [Polyfill](javascript/others/polyfill.md)
+  * [Strict Mode](javascript/others/strict-mode.md)
 
 ## DOM
 
@@ -81,6 +83,7 @@
   * [React Forms](react/main-react/react-forms.md)
   * [Popular libraries](react/main-react/popular-libraries-1/README.md)
     * [React Router](react/main-react/popular-libraries-1/react-router.md)
+    * [WebPack](react/main-react/popular-libraries-1/webpack.md)
 
 ## Node JS
 
@@ -127,8 +130,14 @@
   * [Enviroment Variables](others/main/enviroment-variables.md)
   * [FlowCharts](others/main/flowcharts.md)
   * [General Programming Knowledge](others/main/general-programming-knowledge/README.md)
+    * [Closures](others/main/general-programming-knowledge/closures.md)
     * [Garbage Collector](others/main/general-programming-knowledge/garbage-collector.md)
+    * [Pure Function](others/main/general-programming-knowledge/pure-function.md)
+    * [Functional Programing](others/main/general-programming-knowledge/functional-programing.md)
+    * [Object Oriented Programming](others/main/general-programming-knowledge/object-oriented-programming.md)
     * [Lazy Loading](others/main/general-programming-knowledge/lazy-loading.md)
+    * [Type Coercion](others/main/general-programming-knowledge/type-coercion.md)
+    * [Type inference](others/main/general-programming-knowledge/type-inference.md)
   * [General Web Knowledge](others/main/general-web-knowledge/README.md)
     * [HTTP Status code](others/main/general-web-knowledge/http-status-code.md)
     * [Minification and Obfuscation](others/main/general-web-knowledge/minification-and-obfuscation.md)
