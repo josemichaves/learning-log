@@ -2,14 +2,6 @@
 
 * [Initial page](README.md)
 
-## HTML
-
-* [Main HTML](html/main/README.md)
-  * [Accesibility](html/main/accesibility.md)
-  * [Audio and Video](html/main/audio-and-video.md)
-  * [Tags](html/main/untitled.md)
-  * [Additions to HTML5](html/main/additions-to-html5.md)
-
 ## CSS
 
 * [Main CSS](css/untitled/README.md)
@@ -33,6 +25,34 @@
   * [Responsive](css/design/responsive.md)
   * [Mobile First](css/design/mobile-first.md)
 * [Media Queries](css/media-queries.md)
+
+## Deploy
+
+* [Main](deploy/main/README.md)
+  * [Deploy frontend](deploy/main/deploy-frontend.md)
+  * [Deploy backend](deploy/main/deploy-backend.md)
+
+## DOM
+
+* [Main](dom/main/README.md)
+  * [Event bubbling](dom/main/event-bubbling.md)
+  * [Event capture](dom/main/event-capture.md)
+  * [Whats is the DOM?](dom/main/dom.md)
+
+## Git
+
+* [Main Git](git/untitled/README.md)
+  * [Basic Commands](git/untitled/basic-commands.md)
+  * [Advanced Commands](git/untitled/advanced-commands.md)
+  * [Resolve conflicts](git/untitled/resolve-conflicts.md)
+
+## HTML
+
+* [Main HTML](html/main/README.md)
+  * [Accesibility](html/main/accesibility.md)
+  * [Audio and Video](html/main/audio-and-video.md)
+  * [Tags](html/main/untitled.md)
+  * [Additions to HTML5](html/main/additions-to-html5.md)
 
 ## JavaScript
 
@@ -63,29 +83,6 @@
   * [Polyfill](javascript/others/polyfill.md)
   * [Strict Mode](javascript/others/strict-mode.md)
 
-## DOM
-
-* [Main](dom/main/README.md)
-  * [Event bubbling](dom/main/event-bubbling.md)
-  * [Event capture](dom/main/event-capture.md)
-  * [Whats is the DOM?](dom/main/dom.md)
-
-## React
-
-* [Main React](react/main-react/README.md)
-  * [React JSX](react/main-react/react-jsx.md)
-  * [React Context](react/main-react/react-context.md)
-  * [React Components](react/main-react/react-components.md)
-  * [React Component States](react/main-react/react-component-states.md)
-  * [React Lifecycle Methods](react/main-react/react-lifecycle-methods.md)
-  * [React Hooks](react/main-react/react-hooks/README.md)
-    * [useRef\(\)](react/main-react/react-hooks/useref.md)
-  * [React Function Components](react/main-react/react-function-components.md)
-  * [React Forms](react/main-react/react-forms.md)
-  * [Popular libraries](react/main-react/popular-libraries-1/README.md)
-    * [React Router](react/main-react/popular-libraries-1/react-router.md)
-    * [WebPack](react/main-react/popular-libraries-1/webpack.md)
-
 ## Node JS
 
 * [Main](node-js/main/README.md)
@@ -101,19 +98,6 @@
   * [Real Time Data](node-js/main/real-time-data.md)
   * [Popular libraries](node-js/main/popular-libraries/README.md)
     * [Express](node-js/main/popular-libraries/express.md)
-
-## Popular Libraries
-
-* [Libaries](popular-libraries/libraries/README.md)
-  * [Axios](popular-libraries/libraries/axios.md)
-  * [Moment](popular-libraries/libraries/moment.md)
-
-## Git
-
-* [Main Git](git/untitled/README.md)
-  * [Basic Commands](git/untitled/basic-commands.md)
-  * [Advanced Commands](git/untitled/advanced-commands.md)
-  * [Resolve conflicts](git/untitled/resolve-conflicts.md)
 
 ## Others
 
@@ -146,16 +130,27 @@
     * [Basic Syntax](others/main/markdown/basic-syntax.md)
     * [Advanced Syntax](others/main/markdown/advanced-syntax.md)
 
-## Web APIs <a id="webapi"></a>
+## Popular Libraries
 
-* [Main Web APIs](webapi/main-web-apis/README.md)
-  * [Storage](webapi/main-web-apis/storage.md)
+* [Libaries](popular-libraries/libraries/README.md)
+  * [Axios](popular-libraries/libraries/axios.md)
+  * [Moment](popular-libraries/libraries/moment.md)
 
-## Deploy
+## React
 
-* [Main](deploy/main/README.md)
-  * [Deploy frontend](deploy/main/deploy-frontend.md)
-  * [Deploy backend](deploy/main/deploy-backend.md)
+* [Main React](react/main-react/README.md)
+  * [React JSX](react/main-react/react-jsx.md)
+  * [React Context](react/main-react/react-context.md)
+  * [React Components](react/main-react/react-components.md)
+  * [React Component States](react/main-react/react-component-states.md)
+  * [React Lifecycle Methods](react/main-react/react-lifecycle-methods.md)
+  * [React Hooks](react/main-react/react-hooks/README.md)
+    * [useRef\(\)](react/main-react/react-hooks/useref.md)
+  * [React Function Components](react/main-react/react-function-components.md)
+  * [React Forms](react/main-react/react-forms.md)
+  * [Popular libraries](react/main-react/popular-libraries-1/README.md)
+    * [React Router](react/main-react/popular-libraries-1/react-router.md)
+    * [WebPack](react/main-react/popular-libraries-1/webpack.md)
 
 ## Typescript
 
@@ -164,4 +159,9 @@
   * [Interfaces](typescript/main/interfaces.md)
   * [Intersection Types](typescript/main/intersection-types.md)
   * [Generics](typescript/main/generics.md)
+
+## Web APIs <a id="webapi"></a>
+
+* [Main Web APIs](webapi/main-web-apis/README.md)
+  * [Storage](webapi/main-web-apis/storage.md)
 
