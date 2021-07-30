@@ -6,7 +6,7 @@ Type inference is the automatic deduction of the data types of specific expressi
 
 In this case we  can see that TypeScript has deduced that `x` is a number, without telling that `x` is a number.
 
-If we have various data types TypeScript will put the type of this datatypes on it.
+If we have various data types TypeScript will put the type of this data types on it.
 
 ![](../../../.gitbook/assets/image%20%2883%29.png)
 

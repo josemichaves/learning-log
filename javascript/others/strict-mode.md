@@ -28,7 +28,7 @@ function strict() {
 function notStrict() { return "I'm not strict."; }
 ```
 
-Of we export a module it will be strict by default.
+If we export a module it will be strict by default.
 
 
 
